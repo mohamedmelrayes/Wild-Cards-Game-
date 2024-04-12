@@ -7,21 +7,20 @@
 Wild Cards Game is a browser-based card game developed using JavaScript. The game features a deck of cards with unique characters and abilities, providing players with an immersive and strategic gaming experience.
 
 ## Features
+- **Shuffling Cards:** Implemented a function to shuffle the cards randomly every time the game starts or is reset.
+- **Grid Layout:** Createted a grid layout to display the face-down cards. Used CSS to style the cards attractively.
+- **Card Flip Animation:** Added a smooth animation effect when the player clicks on a card, revealing its face. Included a timeout to allow the player to memorize the card before flipping it back if there is no match.
+- **Matching Logic:** Implemented logic to check if the two flipped cards match. If they do, keep them face up; otherwise, flip them back face down.
 
-- **Dynamic Gameplay:** Experience dynamic gameplay with a diverse range of cards and abilities.
-- **Strategic Depth:** Strategize and plan your moves to outsmart your opponents and emerge victorious.
-- **Single Player Mode:** Enjoy the game in single-player mode against AI opponents.
-- **Multiplayer Mode:** Challenge friends or other players online in multiplayer mode for competitive matches.
-- **Customizable Decks:** Build and customize your own decks with unique combinations of cards.
-- **Responsive Design:** Play the game seamlessly across different devices with responsive design.
+- **Game Completion:** Detected when the player has successfully matched all the pairs, and display a modal congratulatory message.
+
+- **Wrong Tries:** Detected the number of wrong tries made by the player during gameplay, providing feedback on their progress and skill level.
 
 ## How to Play
 
 1. **Access the Game:** Open the game in a web browser by navigating to the provided URL.
 2. **Game Interface:** Familiarize yourself with the game interface, including the deck of cards, player information, and game board.
 3. **Gameplay:** Follow the on-screen instructions to play the game, including selecting cards, making moves, and utilizing abilities.
-4. **Single Player Mode:** Choose single-player mode to play against AI opponents for practice or entertainment.
-5. **Multiplayer Mode:** Enter multiplayer mode to challenge friends or other players online for competitive matches.
 
 ## Getting Started
 
